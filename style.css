@@ -1,0 +1,193 @@
+html {
+    background: white;
+}
+
+body {
+    font-size: 17px;
+    line-height: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: white;
+}
+
+h1 {
+    margin-left: 230px;
+    margin-top: 0px;
+    margin-right: 250px;
+    color: white;
+    font-size: 25px;
+    background-color: lightseagreen;
+    padding: 35px 20px;
+    margin-bottom: 0px;
+}
+
+nav {
+    padding: 15px;
+    display: inline;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+ul a {
+    color: #999;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: #666;
+}
+
+hr {
+    margin-top: 0px;
+    background-color: #c9c4c4;
+    height: 1.5px;
+    border: none;
+    margin-bottom: 0px;
+}
+
+#box {
+    height: 2.2px;
+    background-color: #dfdbdb;
+    border: none;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: lightseagreen;
+}
+/* 
+.bg {
+    background-color: #dfdbdb;
+    height: 100%;
+    width: 100%;
+} */
+
+body{
+    background-color: #f3efef;
+    height:100%;
+}
+#profile {
+    width: 230px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+
+#wrapper {
+    width: 60%;
+    min-height: calc(100vh - 150px);
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    background: white;
+}
+
+p {
+    color: #666;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+label {
+    color: #666;
+}
+
+.input-s {
+    width: 100%;
+}
+
+#msg {
+    width: 100%;
+    height: 100px;
+}
+
+button {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+#footer {
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    background: #666;
+    border-top: solid 7px;
+    border-top-color: lightseagreen;
+    bottom: 0;
+    text-align: center;
+}
+
+.placeholder {
+    margin: 15px 0px;
+}
+
+
+@media (max-width: 640px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    header {
+        position: static;
+    }
+
+    h1 {
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 50%;
+    }
+
+    ul {
+        margin-left: 0px;
+        width: 50%;
+    }
+
+    .placeholder {
+        align: middle;
+    }
+ 
+}
+
+@media (max-width: 768px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    h1 {
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 50%;
+    }
+
+    ul {
+        margin-left: 0px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 980px) {
+    #wrapper {
+        width: 80%;
+    }
+
+    h1 {
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 50%;
+    }
+
+    ul {
+        margin-left: 0px;
+    }
+}
